@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Aug  3 16:55:15 2022
+# Process ID: 13660
+# Current directory: Z:/ELEC4250/Practical-20220729/Exercise/L2Exercise/solution1/impl/ip
+# Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
+# Log file: Z:/ELEC4250/Practical-20220729/Exercise/L2Exercise/solution1/impl/ip/vivado.log
+# Journal file: Z:/ELEC4250/Practical-20220729/Exercise/L2Exercise/solution1/impl/ip\vivado.jou
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace

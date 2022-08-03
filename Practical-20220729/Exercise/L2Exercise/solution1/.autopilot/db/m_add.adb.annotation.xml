@@ -1,0 +1,14 @@
+<annotationInfo>
+<annotationInfo>
+<item  id="11" filename="myfunctions.c" linenumber="8" name="icmp_ln8" contextFuncName="m_add" moduleName="m_add" rtlName="icmp_ln8_fu_89_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="9" fileDirectory="Z:\ELEC4250\Practical-20220729\Exercise"><\/item>
+<item  id="13" filename="myfunctions.c" linenumber="8" name="i" contextFuncName="m_add" moduleName="m_add" rtlName="i_fu_95_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="11" fileDirectory="Z:\ELEC4250\Practical-20220729\Exercise"><\/item>
+<item  id="16" filename="myfunctions.c" linenumber="10" name="tmp" contextFuncName="m_add" moduleName="m_add" rtlName="tmp_fu_101_p3" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="Z:\ELEC4250\Practical-20220729\Exercise"><\/item>
+<item  id="17" filename="myfunctions.c" linenumber="9" name="zext_ln9" contextFuncName="m_add" moduleName="m_add" rtlName="zext_ln9_fu_109_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="Z:\ELEC4250\Practical-20220729\Exercise"><\/item>
+<item  id="21" filename="myfunctions.c" linenumber="9" name="icmp_ln9" contextFuncName="m_add" moduleName="m_add" rtlName="icmp_ln9_fu_113_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="9" fileDirectory="Z:\ELEC4250\Practical-20220729\Exercise"><\/item>
+<item  id="23" filename="myfunctions.c" linenumber="9" name="j" contextFuncName="m_add" moduleName="m_add" rtlName="j_fu_119_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="11" fileDirectory="Z:\ELEC4250\Practical-20220729\Exercise"><\/item>
+<item  id="26" filename="myfunctions.c" linenumber="10" name="zext_ln10" contextFuncName="m_add" moduleName="m_add" rtlName="zext_ln10_fu_125_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="Z:\ELEC4250\Practical-20220729\Exercise"><\/item>
+<item  id="27" filename="myfunctions.c" linenumber="10" name="add_ln10_1" contextFuncName="m_add" moduleName="m_add" rtlName="add_ln10_1_fu_129_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="15" fileDirectory="Z:\ELEC4250\Practical-20220729\Exercise"><\/item>
+<item  id="28" filename="myfunctions.c" linenumber="10" name="zext_ln10_1" contextFuncName="m_add" moduleName="m_add" rtlName="zext_ln10_1_fu_134_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="Z:\ELEC4250\Practical-20220729\Exercise"><\/item>
+<item  id="34" filename="myfunctions.c" linenumber="10" name="add_ln10" contextFuncName="m_add" moduleName="m_add" rtlName="result_d0" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="39" fileDirectory="Z:\ELEC4250\Practical-20220729\Exercise"><\/item>
+<\/annotationInfo>
+</annotationInfo>

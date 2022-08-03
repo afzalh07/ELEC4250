@@ -1,0 +1,14 @@
+INFO: Applying HLS Y2K22 patch v1.2 for IP revision
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'afzal' on host 'afzals-pc' (Windows NT_amd64 version 6.2) on Wed Aug 03 15:43:36 +1000 2022
+INFO: [HLS 200-10] In directory 'Z:/ELEC4250/Practical-20220729/lab2'
+Sourcing Tcl script 'Z:/ELEC4250/Practical-20220729/lab2/fir_proj/solution1/csim.tcl'
+INFO: [HLS 200-10] Opening project 'Z:/ELEC4250/Practical-20220729/lab2/fir_proj'.
+INFO: [HLS 200-10] Opening solution 'Z:/ELEC4250/Practical-20220729/lab2/fir_proj/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-i'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+make: 'csim.exe' is up to date.
+INFO: [SIM 211-1] CSim file generation done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************

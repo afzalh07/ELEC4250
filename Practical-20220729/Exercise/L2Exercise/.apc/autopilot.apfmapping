@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="myfunctions.c" path="Z:\ELEC4250\Practical-20220729\Exercise\myfunctions.c"/>
+    <originFiles name="myfunctions.h" path="Z:\ELEC4250\Practical-20220729\Exercise\myfunctions.h"/>
+  </source>
+  <testbench>
+    <originFiles name="matrix_math.c" path="Z:\ELEC4250\Practical-20220729\Exercise\matrix_math.c"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

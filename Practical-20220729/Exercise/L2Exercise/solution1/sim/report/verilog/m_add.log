@@ -1,0 +1,103 @@
+INFO: [COSIM-47] Using XSIM for RTL simulation.
+INFO: [COSIM-14] Instrumenting C test bench ...
+   Build using "C:/Xilinx/Vivado/2019.1/msys64/mingw64/bin/g++"
+   Compiling apatb_m_add.cpp
+   Compiling (apcc) myfunctions.c_pre.c.tb.c
+INFO: Applying HLS Y2K22 patch v1.2 for IP revision
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'afzal' on host 'afzals-pc' (Windows NT_amd64 version 6.2) on Wed Aug 03 16:53:10 +1000 2022
+INFO: [HLS 200-10] In directory 'Z:/ELEC4250/Practical-20220729/Exercise/L2Exercise/solution1/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Compiling (apcc) matrix_math.c_pre.c.tb.c
+INFO: Applying HLS Y2K22 patch v1.2 for IP revision
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'afzal' on host 'afzals-pc' (Windows NT_amd64 version 6.2) on Wed Aug 03 16:53:17 +1000 2022
+INFO: [HLS 200-10] In directory 'Z:/ELEC4250/Practical-20220729/Exercise/L2Exercise/solution1/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Generating cosim.tv.exe
+INFO: [COSIM-302] Starting C TB testing ... 
+INFO: [COSIM-333] Generating C post check test bench ...
+INFO: [COSIM-12] Generating RTL test bench ...
+INFO: [COSIM-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM-323] Starting verilog simulation. 
+INFO: [COSIM-15] Starting XSIM ...
+INFO: [COSIM-316] Starting C post checking ...
+Output of addition
+PASS: The output matches the golden output!
+
+Z:\ELEC4250\Practical-20220729\Exercise\L2Exercise\solution1\sim\verilog>set PATH= 
+
+Z:\ELEC4250\Practical-20220729\Exercise\L2Exercise\solution1\sim\verilog>call C:/Xilinx/Vivado/2019.1/bin/xelab xil_defaultlib.apatb_m_add_top glbl -prj m_add.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile "C:/Xilinx/Vivado/2019.1/data/xsim/ip/xsim_ip.ini" --lib "ieee_proposed=./ieee_proposed" -s m_add  
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "C:/Xilinx/Vivado/2019.1/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_m_add_top glbl -prj m_add.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile C:/Xilinx/Vivado/2019.1/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s m_add 
+Multi-threading is on. Using 14 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "Z:/ELEC4250/Practical-20220729/Exercise/L2Exercise/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "Z:/ELEC4250/Practical-20220729/Exercise/L2Exercise/solution1/sim/verilog/AESL_automem_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_A
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "Z:/ELEC4250/Practical-20220729/Exercise/L2Exercise/solution1/sim/verilog/AESL_automem_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_B
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "Z:/ELEC4250/Practical-20220729/Exercise/L2Exercise/solution1/sim/verilog/AESL_automem_result.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_result
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "Z:/ELEC4250/Practical-20220729/Exercise/L2Exercise/solution1/sim/verilog/m_add.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_m_add_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "Z:/ELEC4250/Practical-20220729/Exercise/L2Exercise/solution1/sim/verilog/m_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module m_add
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.m_add
+Compiling module xil_defaultlib.AESL_automem_A
+Compiling module xil_defaultlib.AESL_automem_B
+Compiling module xil_defaultlib.AESL_automem_result
+Compiling module xil_defaultlib.apatb_m_add_top
+Compiling module work.glbl
+Built simulation snapshot m_add
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source Z:/ELEC4250/Practical-20220729/Exercise/L2Exercise/solution1/sim/verilog/xsim.dir/m_add/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'Z:/ELEC4250/Practical-20220729/Exercise/L2Exercise/solution1/sim/verilog/xsim.dir/m_add/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Aug  3 16:53:35 2022. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 109.309 ; gain = 17.816
+INFO: [Common 17-206] Exiting Webtalk at Wed Aug  3 16:53:35 2022...
+
+****** xsim v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/m_add/xsim_script.tcl
+# xsim {m_add} -autoloadwcfg -tclbatch {m_add.tcl}
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source m_add.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "555000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 595 ns : File "Z:/ELEC4250/Practical-20220729/Exercise/L2Exercise/solution1/sim/verilog/m_add.autotb.v" Line 316
+## quit
+INFO: [Common 17-206] Exiting xsim at Wed Aug  3 16:53:49 2022...
+Output of addition
+PASS: The output matches the golden output!
+INFO: [COSIM-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
