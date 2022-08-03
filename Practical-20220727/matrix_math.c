@@ -19,20 +19,22 @@ int main(void) {
   printf("Output of multiplication\n");
   show_matrix(M);
 
-  /* test compare */
-  // put your compare test code here
-  int x = m_compare(A, B);
-  printf("Output of comparison\n");
-  printf("%d\n", x);
-  x = m_compare(A, A);
-  printf("%d\n", x);
-
-  /*Exercise 3 */
 
   int Ex_Add[N][N] = {{0, 5}, {5, 5}};
   int Ex_Multi[N][N] = {{8, 5}, {20, 13}};
 
-  if (m_compare(Ex_Add, Add) == 0 && m_compare(Ex_Multi, M) == 0) {
+
+  /* test compare */
+  // put your compare test code here
+  int x = m_compare(Ex_Add, Add);
+  printf("Output of comparison\n");
+  printf("%d\n", x);
+  x = m_compare(Ex_Multi, M);
+  printf("%d\n", x);
+
+  /*Exercise 3 */
+
+    if (m_compare(Ex_Add, Add) == 0 && m_compare(Ex_Multi, M) == 0) {
     printf("Pass\n");
     return 0;
   } else if (m_compare(Ex_Add, Add) == 1 && m_compare(Ex_Multi, M) == 0) {
@@ -42,5 +44,5 @@ int main(void) {
     printf("Fail\n");
     return -2;
   }
-  return 0;
+  // return 0;
 }

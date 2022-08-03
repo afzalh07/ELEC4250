@@ -9,7 +9,7 @@ void m_add(int A[N][N], int B[N][N], int result[N][N]) {
     for (j = 0; j < N; j++) {
       result[i][j] = A[i][j] + B[i][j];
     }
-  return result;
+ 
 }
 
 /* this function multiplies matrices A & B and
@@ -26,7 +26,7 @@ void m_multiply(int A[N][N], int B[N][N], int result[N][N]) {
       sum = 0;
     }
   }
-  return result;
+ 
 }
 
 /* this function compares matrices A and B to see
